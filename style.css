@@ -4,3 +4,21 @@
     --cor-principal:#F4A460;
     --cor-segundaria:#000000;
     --cor-destaque:#0000CD;
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+h1, h2, h5 {
+    color:var(--cor-segundaria);
+    font-weight: 700;
+}
+
+footer a {
+    color:var(--cor-principal)
+}
+
+footer a:hover {
+    color:var(--cor-destaque)
+}
