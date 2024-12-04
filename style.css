@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
 
-:root{ 
-    --cor-principal:#F4A460;
-    --cor-segundaria:#000000;
-    --cor-destaque:#0000CD;
+:root {
+    --cor-principal: #6E859F;
+    --cor-secundaria: #284260;
+    --cor-destaque: #C92BFC;
 }
 
 body {
@@ -11,14 +11,22 @@ body {
 }
 
 h1, h2, h5 {
-    color:var(--cor-segundaria);
+    color: var(--cor-secundaria);
     font-weight: 700;
 }
 
+.lead, .btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+a, .btn-link:hover {
+    color: var(--cor-principal)
+}
 footer a {
-    color:var(--cor-principal)
+    color: var(--cor-principal)
 }
 
 footer a:hover {
-    color:var(--cor-destaque)
+    color: var(--cor-destaque);
 }
